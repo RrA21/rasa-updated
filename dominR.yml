@@ -1,46 +1,153 @@
 version: "3.1"
 
 intents:
- - graduate_plan
- - undergraduate_plan
- - Contact_info
- - AUM_twitter
- - AUM_instgram
- - AUM_facebook
- - AUM_youtube
- - Library_Support
- - help
+  - Architectural_engineering_courses
+  - InformationSystems_Technology(IST)_courses
+  - Telecommunications_Networking_Technology(TNT)courses
 
 
 responses:
 
-  utter_graduate_plan:
-  - text: "https://aum.edu.kw/english/academics/graduate-programs"
-
-  utter_undergraduate_plan:
-  - text: "https://aum.edu.kw/english/academics/undergraduate-programs"
-
-  utter_Contact_info:
-  - text: "Admissions email: admissions@aum.edu.kw ,Phone: (+965) 2225 1400 ,https://aum.edu.kw/english/contact-us"
+ 
+  utter_Architectural_engineering_courses:
+   - text: "Architectural Engineering (AE)
+     Course: MA 165 Title: Analytic Geometry and Calculus I Credits: 4 
+     Course: MA 166 Title: Analytic Geometry and Calculus II Credits: 4  
+     Course: CHM 115 Title: General Chemistry I Credits: 4  
+     Course: ENGL 106 Title:  First-Year Composition Credits: 4  
+     Course: ENGL 100 Title: English for Academic Studies Credits: 3  
+     Course: ENGR 132 Title: Transforming Ideas to Innovation II Credits: 2  
+     Course: ENGR 131 Title: Transforming Ideas to Innovation I Credits: 2  
+     Course: SS Title: Science Selective Credits: 3 
+     Course: GEE1 Title: Modern Architecture Credits: 3 
+     Course: PHYS 172 Title: Modern Mechanics Credits: 4 
+     Course: AE 200 Title: Thermal and Energy Science Credits:3 
+     Course: CVL 231 Title: Engineering Materials I Credits:3 
+     Course: CVL 297 Title:  Basic Mechanics I Credits:3 
+     Course: CVL 270 Title: Introductory Structural Mechanics Credits:4  
+     Course: CVL 203 Title: Principles and Practices of Geomatics Credits:4 
+     Course: CGT 164 Title: Graphics for Civil Engineering and Construction Credits:2 
+     Course: CVL 292 Title: Contemporary Issues in Civil Engineering Credits:2 
+     Course: LA 250 Title: Architectural Design Credits:3 
+     Course: MA 265 Title: Linear Algebra Credits:3 
+     Course: MA 261 Title: Multivariate Calculus Credits:4 
+     Course: COM 114 Title: Speech Communication Credits:3  
+     Course: MA 266 Title: Ordinary Diff. Equations Credits:3 
+     Course: CVL 398 Title: Introduction to Civil Engineering System Design Credits:3 
+     Course: AE 311 Title: Architectural Engineering Credits:3 
+     Course: AE 413 Title: Building Envelope Design and Thermal Loads Credits:3 
+     Course: CVL 341 Title: Hydraulics, Hydrology and Drainage Credits:3 
+     Course: CVL 343 Title: Elementary Hydraulics Lab Credit:1 
+     Course: AE 310 Title: Architecture and BIM Credits:3 
+     Course: PHYS 241 Title: Electricity and Optics Credits:3  
+     Course: Bas. Sci. Title: Basic Science Selective Credits:3 
+     Course: AE 415 Title: Engineering Acoustics Credits:3 
+     Course: AE 414 Title: Building Mech. & Electrical Systems Credits:3  
+     Course: LA 255 Title: Architectural Design II Credits 3 
+     Course: BCM 250 Title: Construction Project And Administrative Management Credits:2 
+     Course: STAT 511 Title: Statistical Methods Credits:3  
+     Course: AE 498 Title: Senior Design Credits:3 
+     Course: AE 513 Title: Lighting in Buildings Credits:3 
+     Course: AE 522 Title: Indoor Environment Credits:3  
+     Course: AE 514 Title: Building Controls Credits:3  
+     Course: TEL 2 Title: Technical Elective Credits:3 
+     Course: AE 515 Title: Building Energy Audits Credits:3 
+     Course: GEE 2 Title: General Education Elective Credits:3 
+     Course: AE 516 Title: Sustainable Building Modeling and Operation Credits:3  
+     Course: GEE 3 Title: General Education Elective Credits:3 
+     Course: TEL 1 Title: Technical Elective Credits:3 
+     Total Minimum Credits Required for Graduation = 136"
   
-  utter_AUM_twitter:
-  - text: "https://twitter.com/official_AUM"
 
-  utter_AUM_instgram:
-  - text: "https://www.instagram.com/aum_official/"
-
-  utter_AUM_facebook:
-  - text: "https://www.facebook.com/officialAUM/"
-
-  utter_AUM_youtube:
-  - text: "https://www.youtube.com/officialaum"
-
-  utter_Library_Support:
-  - text: "Library.Support@aum.edu.kw"
-
-  utter_help:
-  - text: " you can use this number to contact with Student Affairs number:22260100"
-
+  utter_InformationSystems_Technology(IST)_courses:
+   - text: "Course: CNIT 180 Title: Intro to Systems Dev. Credits:3  
+     Course: CNIT 155 Title: Intro to Obj-Oriented Prog Credits:3 
+     Course: MA 223 Title: Introductory Analysis I Credits:3  
+     Course: CNIT 176 Title: Info Tech Architectures Credits:3 
+     Course: IT 104 Title: Industrial Organization Credits:3   
+     Course: ENGL 106 Title: First-Year Composition Credits:4  
+     Course: TECH 120 Title: Technology & the Individual Credits:3  
+     Course: MA 224 Title: Introductory Analysis II Credits:3 
+     Course: ENGL 100 Title: English for Academic Studies Credits:3  
+     Course: GEE Title: General Education Elective Credits:3 
+     Course: CNIT 255 Title: Programming for the Internet Credits:3  
+     Course: CNIT 242 Title: System Administration Credits:3  
+     Course: CNIT 272 Title: Database Fundamentals Credits:3  
+     Course: CNIT 280 Title: Sys Analysis & Design Methods Credits:3  
+     Course: SS Title: Statistics Selective Credits:3 
+     Course: CNIT 315 Title: Systems Programming Credits:3  
+     Course: AS Title: Accounting Selective Credits:3 
+     Course: COM 114 Title: Fund. of Speech Communication Credits:3 
+     Course: GEE Title: General Education Elective Credits:3  
+     Course: GEE Title: General Education Elective Credits:1 
+     Course: FE Title: Free Elective Credits:3 
+     Course: CNIT 380 Title: Adv. Analysis & Design Credits:4  
+     Course: ISS2 Title: Information Systems Selective Credits:3 
+     Course: ISS1 Title: Information Systems Selective Credits:3  
+     Course: TECH 320 Title: Technology & the Organization Credits:2  
+     Course: CNIT 372 Title: Database Programming Credits:3  
+     Course: ISS3 Title: Information Systems Selective Credits:3 
+     Course: IS1 Title: Interdisciplinary Selective Credits:3 
+     Course: IS2 Title: Interdisciplinary Selective Credits:3 
+     Course: GEE Title: General Education Elective Credits:3  
+     Course: ENGL 420 Title: Business Writing Credits:3 
+     Course: GEE Title: General Education Elective Credits: 2 
+     Course: ISS4 Title: Information Systems Selective Credits: 3 
+     Course: ISS5 Title: Information Systems Selective Credits: 3  
+     Course: TECH 330 Title: Technology & the Global Credits: 3  
+     Course: CNIT 480 Title: Managing Info Tech Projects Credits: 3  
+     Course: OLS 252 Title: Human Relations in Organizations Credits: 3  
+     Course: IS4 Title: Interdisciplinary Selective Credits: 3  
+     Course: IS3 Title: Interdisciplinary Selective Credits: 3 
+     Course: IS5 Title: Interdisciplinary Selective Credits: 3  
+     Course: GEE Title: General Education Elective Credits: 3  
+     Course: GEE Title: General Education Elective Credits: 3 
+     Total Minimum Credits Required for Graduation = 124"
+  
+  
+  utter_Telecommunications_Networking_Technology(TNT)courses:
+  - text: "Course: CNIT 180 Title: Intro to Systems Dev. Credits:3  
+     Course: CNIT 155 Title: Intro to Obj-Oriented Prog Credits:3 
+     Course: MA 223 Title: Introductory Analysis I Credits:3  
+     Course: CNIT 176 Title: Info Tech Architectures Credits:3 
+     Course: IT 104 Title: Industrial Organization Credits:3  
+     Course: ENGL 106 Title: First-Year Composition Credits:4  
+     Course: TECH 120 Title: Technology & the Individual Credits:3  
+     Course: MA 224 Title: Introductory Analysis II Credits:3 
+     Course: ENGL 100 Title: English for Academic Studies Credits:3  
+     Course: OLS 252 Title: Human Relations in Organizations Credits:3 
+     Course: CNIT 240 Title: Data Comm & Networking Credits:3 
+     Course: CNIT 255 Title: Programming for the Internet Credits:3  
+     Course: CNIT 242 Title: System Administration Credits:3  
+     Course: CNIT 272 Title: Database Fundamentals Credits:3  
+     Course: CNIT 280 Title: Sys Analysis & Design Methods Credits:3  
+     Course: CNIT 315 Title: Systems Programming Credits:3  
+     Course: COM 114 Title: Fund. of Speech Communication Credits:3 
+     Course: GEE Title: General Education Elective Credits:3  
+     Course: ECET 224 Title: General Education Elective Credits:3 
+     Course: PHYS 218 Title: General Physics I Credits:4 
+     Course: CNIT 340 Title: UNIX Administration Credits: 3  
+     Course: CNIT 342 Title: Adv Syst & Network Adm Credits: 3  
+     Course: CNIT 345 Title: Internetwork Design & Implem Credits: 3  
+     Course: CNIT 346 Title: Wireless Networks Credits: 3  
+     Course: TECH 320 Title: Technology & the Organization Credits: 2  
+     Course: ENGL 420 Title: Business Writing Credits: Credits: 3  
+     Course: PHYS 219 Title: General Physics II Credits: 4 
+     Course: TECH 330 Title: Title: Technology & the Global Society Credits: 3  
+     Course: SS Title: Statistics Selective Credits: 3 
+     Course: ECET 374 Title: Digital Telecommunications Credits: 4 
+     Course: GEE Title: General Education Elective Credits: 1 
+     Course: ISS1 Title: Information Systems Selective Credits: 3 
+     Course: ISS2 Title: Information Systems Selective Credits: 3  
+     Course: CNIT 455 Title: Network Security Credits: 3  
+     Course: CNIT 480 Title: Managing Info Tech Projects Credits: 3  
+     Course: NS1 Title: Net Selective Credits: 3  
+     Course: NS2 Title: Net Selective Credits: 3  
+     Course: BES1 Title: Business and Economics Selective Credits: 3  
+     Course: BES2 Title: Business and Economics Selective Credits: 3  
+     Course: GEE Title: General Education Elective Credits: 3  
+     Course: GEE Title: General Education Elective Credits: 3 
+     Total Minimum Credits Required for Graduation = 124"
 
 
 
