@@ -1,14 +1,24 @@
 version: "3.1"
 
 intents:
+اضافة جديدة
   - Architectural_engineering_courses
   - InformationSystems_Technology(IST)_courses
   - Telecommunications_Networking_Technology(TNT)courses
 
+تعديلات دومين يقين 2
+  
+  - electrical_engineering 
+  - computer_engineering_courses
+  - mechanical_engineering_core_courses
+  - chemical_engineering_core_courses
+  - industrial_engineering_core_courses
+  - civil_engineering_core_courses
+
 
 responses:
 
- 
+ اضافة جديدة
   utter_Architectural_engineering_courses:
    - text: "Architectural Engineering (AE)
      Course: MA 165 Title: Analytic Geometry and Calculus I Credits: 4 
@@ -151,6 +161,304 @@ responses:
 
 
 
+تعديلات دومين يقين 2
+  utter_electrical_engineering:
+  - text: "Electrical Engineering (EE)
+     Course: ENGR 131       Title: Transforming Ideas to Innovation I (General Eng.)    Credits:2
+     Course: ENGR 132   Title: Transforming Ideas to Innovation II (General Eng.)  Credits :2 
+     Course: MA 165 Title: Analytic Geometry and Calculus I (Mathematics) Credits: 4
+     Course: MA 166   Title: Analytic Geometry and Calculus II (Mathematics) Credits: 4 
+     Course: ENGL 100   Title: English for Academic Studies (English Lan. & Com.)   Credits: 3 
+     Course: PHYS 172   Title: Modern Mechanics (Science) Credits: 4 
+     Course: CHM 115   Title: General Chemistry I (Science) Credits: 4 
+     Course:  CS 159      Title:  Programming Applications for Engineers (General Eng.) Credits:  3 
+     Course:  GEE          Title: General Education Elective (refer to course catalogue) Credits: 3
+     Course:  ENGL 106     Title:  First-Year Composition (English Lan. & Com.) Credits: 4
+     Course:  EE 201   Title: Linear Circuit Analysis I (EE Core) Credits: 3
+     Course:  EE 202   Title: Linear Circuit Analysis II (EE Core) Credits:  3
+     Course:  EE 207   Title: Electronic Measurement Techniques Lab (EE Core) Credits: 1 
+     Course:  EE 270     Title: Introduction to Digital System Design + Lab (EE Core) Credits: 4 
+     Course:  MA 261     Title:  Multivariate Calculus (Mathematics) Credits:  4 
+     Course:  MA 266        Title:  Ordinary Differential Equations (Mathematics) Credits: 3 
+     Course:  PHYS 272      Title:  Electric and Magnetic Interactions +Lab (Science) Credits: 4
+     Course:  EE 255             Title: Introduction to Electronic Analysis and Design (EE Core) Credits: 3
+     Course:  COM 114         Title: Fund. of Speech Communication (English Lan. & Com.) Credits: 3 
+     Course:  EE 208             Title: Electronic Devices and Design Laboratory (EE Core) Credits: 1
+     Course:  EE 200     Title: Electrical and Computer Engineering Sophomore Seminar (EE Seminar) Credits: 0 
+     Course:  GEE            Title: General Education Elective (refer to course catalogue) Credits:  3
+     Course:  EE 301    Title:  Signals and Systems (EE Core) Credits:  3 
+     Course:  EE 302    Title: Probabilistic Methods in Electrical and Computer Engineering (EE Core) Credits:  3 
+     Course:  AEES1        Title: Advanced EE Selective (for example: CE 362*) Credits:  4
+     Course:  EE 311   Title: Electric and Magnetic Fields (EE Core) Credits:  3
+     Course:  MA 265     Title: Linear Algebra (Mathematics) Credits: 3
+     Course:  CEL1      Title: Complementary Elective (for example: EE 453*) Credits: 3
+     Course:  GEE      Title:  General Education Elective (for example: ENGL 421*) Credits:  3
+     Course:  AEES2     Title: Advanced EE Selective (for example: EE 305*) Credits:  3
+     Course:  SC        Title: Science Elective * Credits:  3
+     Course:  EEE1      Title: EE Elective (for ex: EE 306*) Credits:  1
+     Course:  GEE       Title: General Education Elective (refer to course catalogue) Credits: 3
+
+     Course: EE 400 Title: Professional Development and Career Guidance - Graduation Project I (EE Seminar) Credits: 1 
+     Course:  EEE3   Title: EE Elective (for example: EE 412; refer to Degree Requirements) Credits: 3
+     Course:  GEE   Title: General Education Elective (refer to course catalogue) Credits: 3
+     Course:  EEE4   Title: EE Elective (for example: EE 413; refer to Degree Requirements) Credits:  1
+     Course:  CEL2   Title: Complementary Elective (for example: EE 321*) Credits: 3
+     Course:  EEE5   Title:  EE Elective (for example: EE 455*) Credits: 3
+     Course:  EEE2   Title: EE Elective (for example: EE 323*) Credits:  1
+     Course:  CEL3   Title: Complementary Elective (for example: EE 432*) Credits: 3 
+     Course:  AEES3   Title: Advanced EE Selective (for example: EE438*) Credits: 4
+     Course:  EB   Title: Engineering Breadth*(General Eng.) Credits: 3
+     Course:  GEE   Title: General Education Elective (refer to course catalogue) Credits: 3
+     Course:  EE 402   Title: Electrical Engineering Design Projects (Senior Design) Credits:  3
+
+
+    Total Minimum Credits Required for Graduation = 128"
+
+
+  utter_computer_engineering_courses:
+  - text: 
+     " Computer Engineering (CE) 
+     -Course: ENGR 131 Title: Transforming Ideas to Innovation I Credits:2 
+     -Course: ENGR 132   Title: Transforming Ideas to Innovation II Credits :2  
+     -Course: MA 165 Title: Analytic Geometry and Calculus I Credits: 4 
+     -Course: MA 166   Title: Analytic Geometry and Calculus II Credits: 4  
+     -Course: ENGL 100   Title: English for Academic Studies Credits: 3  
+     -Course: PHYS 172   Title: Modern Mechanics Credits: 4  
+     -Course: CHM 115   Title: General Chemistry I Credits: 4  
+     -Course:  CS 159      Title:  Programming Applications for Engineers Credits:  3  
+     -Course:  GEE          Title: General Education Elective Credits: 3 
+     -Course:  ENGL 106     Title:  First-Year Composition Credits: 4 
+     -Course:  CE 201   Title: Linear Circuit Analysis I Credits: 3 
+     -Course:  CE 202   Title: Linear Circuit Analysis II Credits:  3 
+     -Course:  CE 207   Title: Electronic Measurement Techniques Lab Credits: 1  
+     -Course:  CE 270     Title: Introduction to Digital System Design + Lab (EE Core) Credits: 4  
+     -Course:  MA 261     Title:  Multivariate Calculus (Mathematics) Credits:  4  
+     -Course:  MA 266        Title:  Ordinary Differential Equations (Mathematics) Credits: 3  
+     -Course:  PHYS 272      Title:  Electric and Magnetic Interactions +Lab (Science) Credits: 4 
+     -Course:  CE 255             Title: Introduction to Electronic Analysis and Design (EE Core) Credits: 3 
+     -Course:  COM 114         Title: Fund. of Speech Communication (English Lan. & Com.) Credits: 3  
+     -Course:  CE 208             Title: Electronic Devices and Design Laboratory (EE Core) Credits: 1 
+     -Course:  CE 200     Title: Electrical and Computer Engineering Sophomore Seminar (EE Seminar) Credits: 0  
+     -Course:  GEE            Title: General Education Elective (refer to course catalogue) Credits:  3 
+     -Course:  CE 301    Title:  Signals and Systems Credits:  3  
+     -Course:  CE 337    Title:  ASIC Design Laboratory Credits:  2 
+     -Course:  CE 302    Title: Probabilistic Methods in Electrical and Computer Engineering Credits:  3  
+     -Course:  CE 264        Title: Advanced C Programming Credits:  3 
+     -Course:  MA 265     Title: Linear Algebra Credits: 3 
+     -Course: CE 368   Title: Data Structures Credits: 3 
+     -Course:  GEE      Title:  General Education Elective Credits:  3 
+     -Course:  CE 364     Title: Software Engineering Tools Laboratory Credits:  1 
+     -Course:  CE 362       Title: Microprocessor Systems and Interfacing Credits:  3   
+     -Course: MA 369   Title: Discrete Mathematics for Computer Engineering Credits:  4 Course:  GEE       Title: General Education Elective Credits: 3 
+     -Course: CE 400 Title: Professional Development and Career Guidance - Graduation Project I Credits: 1  
+     -Course:  CE 437   Title: Computer Design and Prototyping Credits: 4 
+     -Course:  CEE   Title: CE Elective Credits: 3 
+     -Course: SC Title: Science Elective Credits:  4 
+     -Course:  GEE   Title: General Education Elective Credits: 3 
+     -Course:  ACES   Title:  Advanced CE Selective Credits: 4 
+     -Course:  CE 477   Title: Digital Systems Senior Project +Lab Credits:  4 
+     -Course:  CEL   Title: Complementary Elective Credits: 3  
+     -Course:  EB   Title: Engineering Breadth Credits: 3 
+     -Course:  GEE   Title: General Education Elective (refer to course catalogue) Credits: 3 "
+
+ utter_mechanical_engineering_core_courses:
+  - text: "Mechanical Engineering (ME) 
+ 
+     Course: MA 165 Title: Analytic Geometry and Calculus I Credits: 4 
+     Course: MA 166 Title: Analytic Geometry and Calculus II Credits: 4  
+     Course: CHM 115 Title: General Chemistry I Credits: 4  
+     Course: ENGL 106 Title:  First-Year Composition Credits: 4  
+     Course: ENGL 100 Title: English for Academic Studies Credits: 3  
+     Course: ENGR 132 Title: Transforming Ideas to Innovation II Credits: 2  
+     Course: ENGR 131 Title: Transforming Ideas to Innovation I Credits: 2  
+     Course: SS Title: Science Selective Credits: 3 
+     Course: GEE Title: General Education Elective Credits: 3 
+     Course: PHYS 172 Title: Modern Mechanics Credits: 4 
+     Course: ME 200 Title: Thermodynamics I Credits: 3  
+     Course: ME 263 Title: Intr. to ME Design, Innov. & Entrepreneurship, with Lab Credits:3 
+     Course: ME 270 Title: Basic Mechanics I Credits:3 
+     Course: ME 274 Title: Basic Mechanics II Credits:3 
+     Course: CGT 163 Title: Graphical Communication And Spatial Analysis Credits:2  
+     Course: MA 262 Title: Linear Algebra And Differential Equations Credits:4  
+     Course: MA 261 Title: Multivariate Calculus Credits:4  
+     Course: EE 201 Title: Linear Circuit Analysis I Credits:3 
+     Course: PHYS 241 Title:  Electricity and Optics Credits:3 
+     Course: EE 207 Title: Electronic Measurement Techniques Lab Credits:1  
+     Course: COM 114 Title: Fund. of Speech Communication Credits:3  
+     Course: ME 290 Title: Global Engineering Professional Seminar Credits:1  
+     Course: GEE Title: General Education Elective Credits: 3 
+     Course: ME 309 Title: Fluid Mechanics, with Lab Credits:4  
+     Course: ME 352 Title: Machine Design I, with Lab Credits: 4  
+     Course: ME 365 Title: Systems And Measurements, with Lab Credits:3  
+     Course: ME 375 Title: System Modeling And Analysis Credits:3  
+     Course: ME 323 Title: Mechanics Of Materials Credits:3  
+     Course: MSE 230 Title: Structure and Properties of Materials Credits:3  
+     Course: MA 303 Title: Diff. Equations & Partial Diff. Equations for Engn. &Sci. Credits:3 
+     Course: RE1 Title: Restricted Elective Credits:3 
+     Course: GEE Title: General Education Elective Credits:3 
+     Course: GEE Title: General Education Elective Credits:3  
+     Course: PE1 Title: Mechanical Engineering Professional Elective Credits:3  
+     Course: PE3 Title: Professional Elective Credits:3 
+     Course: ME 315 Title: Heat And Mass Transfer, with Lab Credits:4 
+     Course: ME 463 Title: Engineering Design, with Lab Credits:3  
+     Course: FE Title: Restricted Elective Credits:3  
+     Course: RE2 Title: Restricted Elective Credits:3 
+     Course: PE2 Title: Professional Elective Credits:3 
+     Course: PE4 Title:  Professional Elective Credits:3 
+     Course: GEE Title: General Education Elective Credits:3  
+     Course: GEE Title: General Education Elective Credits:3"
+
+
+   utter_chemical_engineering_core_courses:
+   - text: "Chemical Engineering (CHE) 
+     Course: MA 165 Title: Analytic Geometry and Calculus I Credits: 4 
+     Course: MA 166 Title: Analytic Geometry and Calculus II Credits: 4  
+     Course: CHM 115 Title: General Chemistry I Credits: 4  
+     Course: ENGL 106 Title:  First-Year Composition Credits: 4  
+     Course: ENGL 100 Title: English for Academic Studies Credits: 3  
+     Course: ENGR 132 Title: Transforming Ideas to Innovation II Credits: 2  
+     Course: ENGR 131 Title: Transforming Ideas to Innovation I Credits: 2  
+     Course: CHM 116 Title: General Chemistry II Credits: 4 
+     Course: GEE Title: General Education Elective Credits: 3 
+     Course: PHYS 172 Title: Modern Mechanics Credits: 4 
+     Course: CHE 200 Title: Chemical Engineering Sophomore Credits:1 
+     Course: CHE 211 Title: Introductory Chemical Engineering Thermodynamics Credits:4 
+     Course: CHE 205 Title:  Chemical Engineering Calculations Credits:4 
+     Course: CHM 262 Title: Organic Chemistry II Credits:3  
+     Course: CHM 261 Title: Organic Chemistry I Credits:3 
+     Course: CHM 264 Title:  Organic Chemistry Laboratory II Credits:1 
+     Course: CHM 263 Title: Organic Chemistry Laboratory I Credits:1  
+     Course: MA 265 Title: Linear Algebra Credits:3 
+     Course: MA 261 Title: Multivariate Calculus Credits:4 
+     Course: PHYS 241 Title: Electricity and Optics Credits:3 
+     Course: COM 114 Title: Fund. of Speech Communication Credits:3  
+     Course: GEE Title: General Education Elective Credits: 3 
+     Course: CHE 306 Title: Design of Staged Separation Processes Credits:3  
+     Course: CHE 300 Title: Chemical Engineering Junior Seminar Credits:1  
+     Course: CHE 377 Title: Momentum Transfer Credits:4  
+     Course: CHE 378 Title:  Heat and Mass Transfer Credits:4  
+     Course: CHM 370 Title: Topics in Physical Chemistry Credits:3 
+     Course: CHE 348  Title: Chemical Reaction Engineering Credits:4 
+     Course: MA 266 Title: Ordinary Diff. Equations Credits:3 
+     Course: CHE 320 Title: Statistical Modeling and Quality Enhancement Credits:3 
+     Course: TE Title: Technical Elective Credits:3 
+     Course: GEE Title: General Education Elective Credits:3 
+     Course: GEE Title: General Education Elective Credits:3  
+     Course: CHE 400 Title: Chemical Engineering Senior Seminar Credits:1  
+     Course: CHE 450 Title: Design and Analysis of Processing Systems 4 Credits: 
+     Course: CHE 456 Title:  Process Dynamics and Control Credits:3 
+     Course: CHE EL Title: Chemical Engineering Electives Credits:3 
+     Course: CHE 435 Title: Chemical Engineering Laboratory Credits:4 
+     Course: ENG EL1 Title: Engineering Elective Credits:3 
+     Course: CHE 420 Title: Process Safety Management Credits:3  
+     Course: ENG EL2 Title: Engineering Elective Credits:3 
+     Course: BIO Sel Title: Biology Selective Credits:3 
+     Course: GEE Title: General Education Elective Credits:3  
+     Course: GEE Title: General Education Elective Credits:3"
+
+
+  utter_industrial_engineering_core_courses:
+   - text: "Industrial Engineering (IE) 
+ 
+     Course: ENGL 100 Title: English for Academic Studies Credits: 3 
+     Course: ENGR 131Title: Transforming Ideas to Innovation Credits: 2 
+     Course: MA 165 Title: Analytic Geometry and Calculus I Credits: 4  
+     Course: CHM 115 Title: General Chemistry I Credits: 4  
+     Course: GEE Title: General Education Elective Credits: 3  
+ 
+     Course: ENGL 106 Title: First-Year Composition Credits:  4 
+     Course: ENGR 132 Title: Transforming Ideas to Innovation II Credits:  2  
+     Course: CS 159  Title:  Programming Applications for Engineers Credits:  3 
+     Course: MA 166 Title: Analytic Geometry and Calculus II Credits:  4 
+     Course: PHYS 172  Title: Modern Mechanics Credits:  4 
+ 
+     Course: IE 230   Title:  Probability and Statistics in Engineering I Credits: 3 
+     Course: MA 261   Title:  Multivariate Calculus Credits:  4  
+     Course: IE 330   Title:   Probability and Statistics in Engineering II Credits: 3 
+     Course: MA 265 Title: Linear Algebra   Credits: 3  
+     Course: ME 270  Title: Basic Mechanics Credits: 3  
+     Course: NUCL 273  Title: Mechanics of Materials Credits: 3  
+     Course: PHYS 241 Title: Electricity and Optics Credits: 3  
+     Course: EE 201 Title: Linear Circuit Analysis I Credits: 3  
+     Course: COM 114 Title: Fund. of Speech Communication Credits:  3  
+     Course: ME 200 Title: Thermodynamics I Credits: 3 
+ 
+     Course: IE 332 Title: Computing in Industrial Engineering Credits: 3 
+     Course: IE 336 Title: Operations Research – Stochastic Models Credits: 3 
+     Course: IE 335 Title:  Operations Research - Optimization Credits: 3 
+     Course: IE 383 Title:  Integrated Production Systems I Credits:  3 
+     Course: IE 370 Title: Manufacturing Processes I Credits: 3  
+     Course: IE 386 Title: Work Analysis and Design I Credits: 3  
+     Course: MA 266 Title: Ordinary Differential Equations Credits: 3  
+     Course: TE1 Title: Technical Elective Credits: 3  
+     Course: GEE Title: General Education Elective Credits: 3  
+     Course: GEE Title: General Education Elective Credits: 3 
+ 
+ 
+     Course: IE 300 Title: Industrial Engineering Seminar Credits: 1  
+     Course: IE 486 Title: Work Analysis and Design II Credits: 3  
+     Course: IE 474 Title: Industrial Control Systems Credits: 3 
+     Course: IE 431 Title: Industrial Engineering Design Credits: 3  
+     Course: IE 343 Title:  Engineering Economics Credits: 3  
+     Course: TE4 Title: Technical Elective Credits: 3  
+     Course: TE2 Title: Technical Elective Credits: 3  
+     Course: TE5 Title: Technical Elective Credits: 3  
+     Course: TE3 Title: Technical Elective Credits: 3  
+     Course: GEE Title: General Education Elective Credits: 3 Course: 
+     GEE Title: General Education Elective Credits: 3 "
+
+     
+ utter_civil_engineering_core_courses:
+   - text: "Civil Engineering (CVE) 
+ 
+     Course: MA 165   Title: Analytic Geometry and Calculus I Credits: 4 
+     Course: MA 166   Title: Analytic Geometry and Calculus II Credits: 4  
+     Course: CHM 115 Title: General Chemistry I Credits: 4  
+     Course: ENGL 106 Title: First-Year Composition Credits: 4  
+     Course: ENGL 100 Title: English for Academic Studies Credits: 3  
+     Course: ENGR 132 Title: Transforming Ideas to Innovation II Credits:  2  
+     Course: ENGR 131 Title: Transforming Ideas to Innovation I Credits:  2  
+     Course: SS   Title:  Science Selective Credits:  3 
+     Course: GEE 1 Title: General Education Elective Credits:  3  
+     Course: PHYS 172  Title: Modern Mechanics Credits:  4 
+ 
+     Course: MA 261   Title:  Multivariate Calculus Credits:  4  
+     Course: MA 265 Title: Linear Algebra   Credits: 3  
+     Course: CVL 299 Title: Thermal and Energy Science  Credits:  3  
+     Course: CVL 231 Title: Engineering Materials I  Credits:  3 
+     Course: CVL 297 Title:  Basic Mechanics I   Credits: 3  
+     Course: CVL 270 Title:  Introductory Structural Mechanics   Credits: 4  
+     Course: CVL 203 Title: Principles and Practices of Geomatics   Credits: 4  
+     Course: CVL 298 Title:  Basic Mechanics II   Credits: 3  
+     Course: CGT 164 Title: Graphics for Civil Engineering and Construction   Credits: 2  
+     Course: COM 114 Title:  Speech Communication   Credits: 3 
+     Course: CVL 292 Title: Contemporary Issues in Civil Engineering   Credits: 2 
+ 
+     Course: MA 266 Title:  Ordinary Differential Equations Credits:  3  
+     Course: CVL 398 Title:  Introduction to Civil Engineering System Design   Credits: 3 
+     Course: CVL 331   Title: Engineering Materials  Credits:   3 
+     Course: CVL 392   Title: Technical Communication in CVL  Credits:  2  
+     Course: CVL 340   Title: Hydraulics   Credits: 3 
+     Course: Bas. Sci.  Title: Basic Science Selective Credits: 3 
+     Course: CVL 343   Title: Elementary Hydraulics Lab Credits: 1 
+     Course: TEL 1   Title: Technical Elective Credits: 3 
+     Course: STAT 511   Title: Statistical Methods Credits: 3  
+     Course: TEL 2   Title: Technical Elective Credits: 3  
+     Course: PHYS 241    Title: Electricity and Optics Credits: 3  
+     Course: GEE 2   Title: General Education Elective Credits: 3 
+ 
+     Course: TEL3   Title: Technical Elective Credits: 3  
+     Course: CVL 498   Title: Civil Engineering Design Project Credits: 3 
+     Course: TEL 4   Title: Technical Elective Credits: 3  
+     Course: TEL 8   Title: Technical Elective Credits: 3 
+     Course: TEL 5   Title: Technical Elective Credits: 3 
+     Course: TEL 9   Title:  Technical Elective Credits: 3 
+     Course: TEL 6   Title: Technical Elective Credits: 3 
+     Course: TEL 10   Title:  Technical Elective Credits: 3  
+     Course: TEL 7   Title:  Technical Elective Credits: 3  
+     Course: GEE 4   Title: General Education Elective Credits: 3 
+     Course: GEE 3   Title: General Education Elective Credits: 3  
+     Course: GEE 5   Title: General Education Elective Credits: 3 "
 
 
 
