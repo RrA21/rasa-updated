@@ -1,5 +1,5 @@
 
-
+اضافة جديدة
 #271
 - intent: Architectural_engineering_courses
   examples: |
@@ -71,3 +71,224 @@
     - Telecommunications Networking courses
     - tnt courses
     - TNT courses
+
+
+
+    تعديل على الانتنت الموجود فقط تعديل المحتوى
+    #65
+- intent: industrial_engineering_core_courses
+  examples: |
+      - What are the primary core courses offered in the industrial engineering curriculum?
+      - Can you list the core subjects taught in industrial engineering courses?
+      - Which courses are fundamental in the industrial engineering curriculum?
+      - What are the key subjects covered in industrial engineering core classes?
+      - Can you outline the essential topics in industrial engineering core courses?
+      - What disciplines are included in the core curriculum of industrial engineering?
+      - Can you provide an overview of the core modules within industrial engineering?
+      - Which subjects are considered fundamental for industrial engineering students?
+      - What are the main components of the industrial engineering course curriculum?
+      - Can you specify the core modules that industrial engineering undergraduates must take?
+      - What are the primary core courses offered in the industrial engineering curriculum?
+      - Can you list the core subjects taught in industrial engineering courses?
+      - Which courses are fundamental in the industrial engineering curriculum?
+      - What are the key subjects covered in industrial engineering core classes?
+      - Can you outline the essential topics in industrial engineering core courses?
+      - What disciplines are included in the core curriculum of industrial engineering?
+      - Can you provide an overview of the core modules within industrial engineering?
+      - Which subjects are considered fundamental for industrial engineering students?
+      - What are the main components of the industrial engineering course curriculum?
+      - Can you specify the core modules that industrial engineering undergraduates must take?
+      - IE courses
+      - ie courses
+      - ie engineering courses
+      - IE engineering courses
+      - IE
+      - Ie
+      - ie
+
+  #68
+- intent: chemical_engineering_core_courses
+  examples: |
+    - What are the primary courses included in the chemical engineering curriculum?
+    - Can you list the core subjects taught in the chemical engineering program?
+    - What are the fundamental topics covered in chemical engineering core courses?
+    - Which courses are considered essential for chemical engineering students?
+    - Can you outline the main components of the chemical engineering course curriculum?
+    - What are the key disciplines covered in chemical engineering core classes?
+    - Can you provide an overview of the core modules within the chemical engineering program?
+    - Which engineering fields are included in chemical engineering core courses?
+    - What are the main subjects that chemical engineering undergraduates must study?
+    - Can you identify the core modules within the chemical engineering curriculum?
+    - what course in chemical
+    - what cover in chemical engineering
+    - What are the primary courses included in the chemical engineering curriculum?
+    - Can you list the core subjects taught in the chemical engineering program?
+    - What are the fundamental topics covered in chemical engineering core courses?
+    - Which courses are considered essential for chemical engineering students?
+    - Can you outline the main components of the chemical engineering course curriculum?
+    - What are the key disciplines covered in chemical engineering core classes?
+    - Can you provide an overview of the core modules within the chemical engineering program?
+    - Which engineering fields are included in chemical engineering core courses?
+    - What are the main subjects that chemical engineering undergraduates must study?
+    - Can you identify the core modules within the chemical engineering curriculum?
+    - what course in chemical
+    - what cover in chemical engineering
+    - che
+    - CHE
+    - Che
+    - chemical engineering courses
+    - Chemical engineering courses
+    - chemical courses
+    - Chemical courses
+
+
+
+#71
+- intent: mechanical_engineering_core_courses
+  examples: |
+    - What are the core courses in the mechanical engineering curriculum?
+    - Can you outline the main subjects taught in mechanical engineering core courses?
+    - What fundamental topics are covered in mechanical engineering core subjects?
+    - Which courses are considered essential for mechanical engineering students?
+    - Can you provide an overview of the core modules within the mechanical engineering program?
+    - What are the key disciplines covered in mechanical engineering core classes?
+    - Can you identify the core modules within the mechanical engineering curriculum?
+    - Which engineering fields are included in mechanical engineering core courses?
+    - What are the main subjects that mechanical engineering undergraduates must study?
+    - Can you specify the core modules within the mechanical engineering curriculum?
+    - what course in mechanical
+    - what cover in mechanical engineering
+    - What are the core courses in the mechanical engineering curriculum?
+    - Can you outline the main subjects taught in mechanical engineering core courses?
+    - What fundamental topics are covered in mechanical engineering core subjects?
+    - Which courses are considered essential for mechanical engineering students?
+    - Can you provide an overview of the core modules within the mechanical engineering program?
+    - What are the key disciplines covered in mechanical engineering core classes?
+    - Can you identify the core modules within the mechanical engineering curriculum?
+    - Which engineering fields are included in mechanical engineering core courses?
+    - What are the main subjects that mechanical engineering undergraduates must study?
+    - Can you specify the core modules within the mechanical engineering curriculum?
+    - what course in mechanical
+    - what cover in mechanical engineering
+    - mechanical engineering courses
+    - Mechanical engineering courses
+    - mechanical engineering 
+    - Mechanical engineering
+    - mechanical eng courses
+    - Mechanical eng courses
+    - mechanical eng
+    - Mechanical eng
+    - Me courses
+    - ME courses
+    - me courses
+    - Me
+    - ME
+    - me
+#175
+- intent: computer_engineering_courses
+  examples: |
+    - What are the core courses in computer engineering?
+    - Can you list the fundamental courses for computer engineering students?
+    - Give me a rundown of the courses in computer engineering.
+    - Which subjects are included in the computer engineering curriculum?
+    - I'm curious about the courses offered in computer engineering.
+    - Could you outline the main subjects in computer engineering?
+    - Provide me with information on computer engineering courses.
+    - What topics do computer engineering students study?
+    - Can you name the primary courses for computer engineering majors?
+    - Tell me about the coursework for computer engineering.
+    - CE courses
+    - Ce courses
+    - ce courses
+    - computer engnieering courses
+    - Computer engineering courses
+    - computer eng courses
+    - Computer eng courses
+     - CE
+    - Ce
+    - ce
+    - computer engnieering 
+    - Computer engineering
+    - computer eng
+    - Computer eng
+
+#60
+- intent: civil_engineering_core_courses
+  examples: |
+    - What are the key courses in the civil engineering curriculum?
+    - Can you outline the main subjects taught in civil engineering core courses?
+    - What fundamental topics are covered in civil engineering core subjects?
+    - Which courses are considered foundational for civil engineering students?
+    - What are the primary areas of study in civil engineering core classes?
+    - Can you list the essential disciplines covered in civil engineering core curriculum?
+    - Which engineering fields are included in civil engineering core courses?
+    - What are the core subjects that civil engineering undergraduates must take?
+    - What are the main components of the civil engineering course curriculum?
+    - Can you identify the core modules within the civil engineering program?
+    - What are key courses in civil engineering curriculum?
+    - Can you outline main subjects taught in civil engineering core courses?
+    - What fundamental topics are covered in civil engineering core subjects?
+    - Which courses are considered foundational for civil engineering students?
+    - What are primary areas of study in civil engineering core classes?
+    - Can you list essential disciplines covered in civil engineering core curriculum?
+    - Which engineering fields are included in civil engineering core courses?
+    - What are core subjects that civil engineering undergraduates must take?
+    - What are main components of civil engineering course curriculum?
+    - Can you identify core modules within civil engineering program?
+    - civil engineering courses
+    - Civil engineering courses
+    - civil eng courses
+    - Civil eng courses
+    - Cvl courses
+    - cvl courses
+    - CVL courses
+    - civil engineering
+    - Civil engineering
+    - civil eng
+    - Civil eng
+    - Cvl
+    - cvl
+    - CVL
+
+
+#24
+- intent: electrical_engineering
+  examples: |
+    - What kind of courses will I take in an electrical engineering program?
+    - What are the core subjects in electrical engineering?
+    - Can you provide an overview of the curriculum for electrical engineering students?
+    - Which specific topics are covered in electrical engineering courses?
+    - What are the fundamental courses included in the electrical engineering program?
+    - Could you give me an idea of the coursework involved in studying electrical engineering?
+    - What are some of the main areas of study in electrical engineering?
+    - Can you outline the main course requirements for electrical engineering majors?
+    - I'm interested in learning more about the courses available in electrical engineering.
+    - What career opportunities are available for graduates with a degree in electrical engineering?
+    - What kind of courses will I take in an electrical engineering program?
+    - What are the core subjects in electrical engineering?
+    - Can you provide an overview of the curriculum for electrical engineering students?
+    - Which specific topics are covered in electrical engineering courses?
+    - What are the fundamental courses included in the electrical engineering program?
+    - Could you give me an idea of the coursework involved in studying electrical engineering?
+    - What are some of the main areas of study in electrical engineering?
+    - Can you outline the main course requirements for electrical engineering majors?
+    - I'm interested in learning more about the courses available in electrical engineering.
+    - What career opportunities are avalable for graduates with a degree in electrical engineering?
+    - electrical engineering
+    - Electrical engineering
+    - ee
+    - EE
+    - ee courses
+    - EE courses
+    - ee engineering courses
+    - EE engineering courses 
+    - Ee engineering courses
+    - electrical engnieering 
+    - Electrical engnieering  
+    - electrical eng 
+    - Electrical eng
+    - electrical engnieering courses
+    - Electrical engnieering courses
+    - electrical eng courses
+    - Electrical eng courses
+    
